@@ -1,0 +1,19 @@
+{
+  "name": "csv_to_json",
+  "version": "1.0.0",
+  "description": "A program made to convert CSV files to JSON.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --poll --quiet ./src/index.ts"
+  },
+  "author": "h1dr4x0",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.28",
+    "picocolors": "^1.0.0"
+  }
+}
